@@ -3,7 +3,12 @@
 #include <math.h>
 #include <string.h>
 #include <assert.h>
+#include <ctype.h>
 #include "kd.h"
+
+#ifndef HUGE
+#define HUGE 1e35
+#endif
 
 void usage(void)
 {
